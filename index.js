@@ -13,7 +13,7 @@ class Polygon {
 class Triangle extends Polygon{
   get isValid(){
     for(let i=0; i<this.arr.length;i++){
-      if(this.arr[i]<)
+      if(this.arr[i]<(this.arr[i+1]+this.arr[i+2]));
     }
   }
 }
