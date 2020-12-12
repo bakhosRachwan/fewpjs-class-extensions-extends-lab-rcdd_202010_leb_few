@@ -19,5 +19,7 @@ class Triangle extends Polygon{
 }
 
 class Square extends Polygin{
-  
+  get isValid(){
+    
+  }
 }
