@@ -22,4 +22,9 @@ class Square extends Polygin{
   get isValid(){
     
   }
+  get area(){
+    if(isValid){
+      return this.arr[0]*this.arr[0];
+    }
+  }
 }
