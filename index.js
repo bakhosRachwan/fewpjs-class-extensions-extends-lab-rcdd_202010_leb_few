@@ -10,6 +10,6 @@ class Polygon {
   }
 }
 
-class Triangle in Polygon{
+class Triangle extends Polygon{
   
 }
