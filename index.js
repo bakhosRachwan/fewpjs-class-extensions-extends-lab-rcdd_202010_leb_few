@@ -3,6 +3,6 @@ class Polygon {
     this.arr = arr;
   }
   get countSides() {
-    
+    return this.arr.length
   }
 }
