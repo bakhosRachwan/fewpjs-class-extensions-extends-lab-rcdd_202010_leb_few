@@ -9,3 +9,7 @@ class Polygon {
     return this.arr.reduce((acc, val) => {return acc + val});
   }
 }
+
+class Triangle{
+  
+}
