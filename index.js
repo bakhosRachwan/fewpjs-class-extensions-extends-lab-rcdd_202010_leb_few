@@ -15,8 +15,8 @@ class Triangle extends Polygon{
     for(let i=0; i<this.arr.length;i++){
       if(this.arr[i]<(this.arr[i+1]+this.arr[i+2])){
         return true;
-      };
-        return false
+      }
+        return false;
     }
   }
 }
