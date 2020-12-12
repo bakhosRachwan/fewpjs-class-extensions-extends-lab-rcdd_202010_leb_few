@@ -10,6 +10,6 @@ class Polygon {
   }
 }
 
-class Triangle{
+class Triangle in Polygon{
   
 }
