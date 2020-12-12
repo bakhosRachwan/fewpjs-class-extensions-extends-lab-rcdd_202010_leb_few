@@ -26,7 +26,7 @@ class Square extends Polygon{
     return this.arr.every(val => val === this.arr[0]);
   }
   get area(){
-    if(isValid === true){
+    if(this.arr.every(val => val === this.arr[0])===true){
       return this.arr[0]*this.arr[0];
     }
   }
