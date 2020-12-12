@@ -23,7 +23,7 @@ class Triangle extends Polygon{
 
 class Square extends Polygon{
   get isValid(){
-    
+    return this.arr.every(val => val === this.arr[0]);
   }
   get area(){
     if(isValid){
